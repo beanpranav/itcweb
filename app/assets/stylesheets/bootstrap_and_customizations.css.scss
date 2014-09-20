@@ -1,0 +1,16 @@
+
+$body-bg: 									white;
+$navbar-default-bg:  				white;
+$navbar-default-border:  				white;
+$navbar-default-brand-color:#0077cc;
+$brand-primary: 						#0077cc;
+
+@import 'bootstrap';
+
+.primary-stripe {
+	width: 100%;
+	border-top: solid 10px $brand-primary;
+	margin-top: -1px;
+}
+
+.head { margin: 15px 5px; }

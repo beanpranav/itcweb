@@ -15,5 +15,5 @@
 /log/*.log
 /tmp
 .DS_Store
-
+ITC Web Design Files
 public/system/*
