@@ -1,11 +1,35 @@
 
-$body-bg: 									white;
-$navbar-default-bg:  				white;
+$body-bg: 											white;
+$navbar-default-bg:  						white;
 $navbar-default-border:  				white;
-$navbar-default-brand-color:#0077cc;
-$brand-primary: 						#0077cc;
+$navbar-default-brand-color:		#0077cc;
+$brand-primary: 								#0077cc;
+$brand-font:										#222222;
+$font-family-sans-serif: 				Helvetica, Arial, sans-serif;
+
 
 @import 'bootstrap';
+
+@media (min-width: 1200px) { .container { width: 1020px; } }
+
+body { font-size: 16px; color: $brand-font; }
+h5 { font-size: 17px; font-weight: bold; color: $brand-primary; }
+
+.head { margin: 15px 5px; }
+.subhead { 
+	background-color: $brand-primary; 
+	font-size: 18px;
+	font-weight: bold; 
+	color: $body-bg; 
+	padding: 5px 10px;
+	margin-bottom: 4px;
+}
+.foot { font-size: 13px; line-height: 24px; margin-bottom: 30px; }
+
+.divider { margin-top: 15px; }
+.section { margin-top: 30px; }
+.center { text-align: center; }
+.primary-text { color: $brand-primary; }
 
 .primary-stripe {
 	width: 100%;
@@ -13,4 +37,11 @@ $brand-primary: 						#0077cc;
 	margin-top: -1px;
 }
 
-.head { margin: 15px 5px; }
+.nav-pills > li > a {
+  border-radius: 0px;
+  background-color: #cccccc;
+  color: white;
+  padding: 4px;
+}
+.nav-pills > li > a:hover { background-color: $brand-primary; }
+.nav-justified > li + li { padding-left: 5px; }

@@ -1,2 +1,102 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<!-- Nav tabs -->
+<ul class="nav nav-pills nav-justified" role="tablist">
+	<li class="active"><a href="#about" role="tab" data-toggle="tab">About ITC</a></li>
+	<li><a href="#services" role="tab" data-toggle="tab">Our Services</a></li>
+	<li><a href="#contact" role="tab" data-toggle="tab">Contact Us</a></li>
+</ul>
+
+<!-- Tab panes -->
+<div class="tab-content divider">
+
+	<div class="tab-pane active" id="about">
+		<div><%= image_tag "/images/itc_about.png", class: "img-responsive" %></div>
+		
+		<h5 class="section">Our Vision:</h5>
+		<ol>
+			<li>ITC has a vision to be the foremost ground transportation service for small and medium scale industries by 2020.</li>
+			<li>ITC is a customer oriented transport system in Indian markets, with a proven commitment to excellence.</li>
+			<li>We help our customers transport a wide range of materials like chemicals, medicine, clothes, equipment etc. </li>
+			<li>It has a strong backing in terms of its strategically located branch network and trained work force. </li>
+			<li>We have a track record of completing door-to-door delivery on committed time.</li>
+		</ol>
+	</div>
+
+	<div class="tab-pane" id="services">
+		<%= image_tag "/images/itc_services.png", class: "img-responsive" %>
+
+		<h5 class="section">We Deliver:</h5>
+		<ol>
+			<li>Parcel / Cargo</li>
+			<li>Full Truck Load (FTL)</li>
+			<li>Container</li>
+			<li>Over Dimensional Consignment (ODC)</li>
+		</ol>
+
+		<em>Our fleet has all types of commercial vehicles like tempo, trucks, containers and trailers.</em>
+
+		<h5 class="section">Value Additions:</h5>
+		<ul>
+			<li>We provide pick up and delivery. </li>
+			<li>We guarantee delivery within committed time.</li> 
+			<li>We give (COD) facility. </li>
+			<li>We have Godown & Warehousing facility.</li>
+		</ul>
+	</div>
+
+	<div class="tab-pane" id="contact">
+		<div class="row">
+			<h5 class="section center">ANKLESHWAR HEAD OFFICE</h5>
+			<div class="divider col-md-6 col-md-offset-3">
+				<p>
+					<span class="primary-text">Customer Care / Queries:</span> 02646-220104, 02646-325922<br>
+					<span class="primary-text">Operations / Traffic:</span> 02646-224634, 9375102783<br>
+					<span class="primary-text">Account:</span> 02646-220104, 02646-325922
+				</p>
+				<p>
+					<span class="primary-text">Address:</span> Plot no. 322, Opp. Lakshmi Hotel, Nr. Asian Paints chowkdi, GIDC Estate, Ankleshwar - 393002. Gujarat, India.
+				</p>
+				<p>
+					<span class="primary-text">Email:</span> itcankleshwar@yahoo.in, itcankleshwar@gmail.com
+				</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<h5 class="section center">BRANCH OFFICES</h5>
+			<div class="divider col-md-6">
+				<p>
+					<span class="primary-text">ASLALI:</span> (M) 9377962204, XXXXX <br>
+					Gala no. 5, Gurukripa Estate, Opp. Janaki Hotel, Aslali Gaon, Ahmedabad.
+				</p>
+				<p>
+					<span class="primary-text">BARODA:</span> (M) 9376220870, XXXXX <br>
+					C-440 Sayagi Market, Nr. Ajwachowkdi, NH no 8, Sayajiputa, Baroda.
+				</p>
+				<p>
+					<span class="primary-text">MAKARPURA:</span> (M) 9376220870 <br>
+					C-440 Sayagi Market, Nr. Ajwachowkdi, NH no 8, Sayajiputa, Baroda.
+				</p>
+				<p>
+					<span class="primary-text">VAPI:</span> (M) 9327680814, XXXXX <br>
+					Near Noor Weight bridge, Nasik road, Dungri Faliya Vapi.
+				</p>
+			</div>
+
+			<div class="divider col-md-6">
+				<p>
+					<span class="primary-text">BHIWANDI:</span> (M) 9325329131, XXXXX<br> 
+					Gala no. 4, Jagaran Garaj ompound, Nr. Jagaran Garaj, B/H Jagran Weight bridge, Purana, Village - Bhiwandi.
+				</p>
+				<p>
+					<span class="primary-text">PUNE:</span> (M) 9637770586 <br>
+					Gate no. 144B, Chimbli fata, Nr. Gati Pune-Nasik Highway, Village - Kurli chakhan, Pune.
+				</p>
+				<p>
+					<span class="primary-text">DAHEJ:</span> (M) 9725561386 <br>
+					B/H Kumarsala, Nr. Jhatpat Studio, Dahej gam, Dahej, District - Bharuch.
+				</p>
+			</div>
+		</div>
+	</div>
+
+</div>
